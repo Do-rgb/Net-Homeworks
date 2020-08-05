@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoordLibrary", "CoordLibrary\CoordLibrary.csproj", "{4FB02D0A-B5F8-469A-A9D1-6D9A12676D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordParserConsole", "CoordParserConsole\CoordParserConsole.csproj", "{273986EB-2F2A-43E6-BFD0-8B5106172ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoordParserConsole", "CoordParserConsole\CoordParserConsole.csproj", "{273986EB-2F2A-43E6-BFD0-8B5106172ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordLibraryTested", "CoordLibraryTested\CoordLibraryTested.csproj", "{7898F6A1-AF1C-4573-B9DF-02B6329DF30E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{273986EB-2F2A-43E6-BFD0-8B5106172ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273986EB-2F2A-43E6-BFD0-8B5106172ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273986EB-2F2A-43E6-BFD0-8B5106172ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7898F6A1-AF1C-4573-B9DF-02B6329DF30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7898F6A1-AF1C-4573-B9DF-02B6329DF30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7898F6A1-AF1C-4573-B9DF-02B6329DF30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7898F6A1-AF1C-4573-B9DF-02B6329DF30E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
