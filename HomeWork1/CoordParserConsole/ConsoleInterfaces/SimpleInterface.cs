@@ -22,14 +22,23 @@ namespace CoordParserConsole.ConsoleInterfaces
         {
             _standartHandler.OnNewPair += OnNewPair;
             _standartHandler.OnIncorrect += _standartHandler_OnIncorrect;
+            _standartHandler.OnVeryBigDigit += _standartHandler_OnVeryBigDigit;
 
             _stringHandler.OnNewPair += OnNewPair;
             _stringHandler.OnIncorrect += _standartHandler_OnIncorrect;
+            _stringHandler.OnVeryBigDigit += _standartHandler_OnVeryBigDigit;
 
             _commands.Add("file", new Command("file", "Format the file", FileHandler));
             _commands.Add("input", new Command("input", "Entering coordinates from the keyboard", EnteringHandler));
             _commands.Add("exit", new Command("exit", "Quit the application", ExitHandler));
             _commands.Add("help", new Command("help", "Display commands", HelpHandler));
+        }
+
+        private void _standartHandler_OnVeryBigDigit(InputHandler handler, int line)
+        {
+            if (_skipAlways) { handler.SkipLine(); return; }
+            Console.WriteLine("[ERROR] Line {0}.  VeryBigDigit.", line);
+            SkipMessage(handler);
         }
 
         public override void Main(string[] args)
@@ -85,6 +94,11 @@ namespace CoordParserConsole.ConsoleInterfaces
         {
             if (_skipAlways) { handler.SkipLine(); return; }
             Console.WriteLine("[ERROR] Line {0}. Position {1}. Invalid character \"{2}\".", line, position, symbol);
+            SkipMessage(handler);
+        }
+
+        private void SkipMessage(InputHandler handler)
+        {
             switch (SkipMessage())
             {
                 case UserSkipAnswer.Yes:
