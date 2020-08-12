@@ -1,4 +1,6 @@
-﻿namespace CoordLibrary
+﻿using System;
+
+namespace CoordLibrary
 {
     /// <summary>
     /// Хранит координаты X и Y
