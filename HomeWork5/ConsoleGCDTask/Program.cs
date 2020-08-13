@@ -17,6 +17,12 @@ namespace ConsoleGCDTask
             {
                 string[] inputSplited = input.Split(';', StringSplitOptions.RemoveEmptyEntries);
 
+                if (inputSplited.Length < 2)
+                {
+                    Checker.ErrorWriteLine("Слишком мало чисел. Пожалуйста введит по крайне мере 2 числа.");
+                    return false;
+                }
+
                 foreach (var digitStr in inputSplited)
                 {
                     if (!decimal.TryParse(digitStr, out var digit))
@@ -26,12 +32,6 @@ namespace ConsoleGCDTask
                         return false;
                     }
                     digits.Add(digit);
-                }
-                if (digits.Count < 2)
-                {
-                    digits.Clear();
-                    Checker.ErrorWriteLine("Слишком мало чисел. Пожалуйста введит по крайне мере 2 числа.");
-                    return false;
                 }
                 return true;
             });

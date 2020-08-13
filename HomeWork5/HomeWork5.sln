@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGCDTask", "ConsoleGC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCDLibraryTested", "GCDLibraryTested\GCDLibraryTested.csproj", "{2086BE29-CF92-468A-BABF-6112A00B26AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputCheckerLibrary", "..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj", "{ACD65DF4-9A3E-4896-83FD-C25ACEE4FBE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputCheckerLibrary", "..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj", "{ACD65DF4-9A3E-4896-83FD-C25ACEE4FBE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

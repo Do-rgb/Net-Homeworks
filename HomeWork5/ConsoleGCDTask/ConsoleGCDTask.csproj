@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj" />
+    <ProjectReference Include="..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj" />
     <ProjectReference Include="..\GCDLibrary\GCDLibrary.csproj" />
   </ItemGroup>
 
