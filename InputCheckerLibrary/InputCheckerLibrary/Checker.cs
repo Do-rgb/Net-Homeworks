@@ -9,7 +9,7 @@ namespace InputCheckerLibrary
         /// </summary>
         /// <param name="promptMessage">Сообщение приглашающее пользователя к вводу</param>
         /// <param name="verifiableFunc">Функция проверающая на корректность строку</param>
-        public static void UserInputVerifiable(string promptMessage, Func<string,bool> verifiableFunc)
+        public static void UserInputVerifiable(string promptMessage, Func<string, bool> verifiableFunc)
         {
             Console.WriteLine(promptMessage);
             string inputStr;

@@ -7,7 +7,8 @@ namespace ConsoleUI
 {
     class Program
     {
-        static bool ParseCoords(string input,out MyVector vector,out string message) {
+        static bool ParseCoords(string input, out MyVector vector, out string message)
+        {
             vector = null;
             //Содержит числа введенные пользователем
             List<double> digits = new List<double>();
@@ -32,7 +33,7 @@ namespace ConsoleUI
             }
 
             message = null;
-            vector = new MyVector(digits[0],digits[1],digits[2]);
+            vector = new MyVector(digits[0], digits[1], digits[2]);
 
             return true;
         }
@@ -44,7 +45,8 @@ namespace ConsoleUI
             //Просим пользователя ввести координаты вектора
             Checker.UserInputVerifiable("Пожалуйста, введите координаты 1-го вектора, разделяя ввод символом ';'", input =>
             {
-                if (!ParseCoords(input, out vector1, out var message)) {
+                if (!ParseCoords(input, out vector1, out var message))
+                {
                     Checker.ErrorWriteLine(message);
                     return false;
                 }
@@ -63,7 +65,7 @@ namespace ConsoleUI
 
             Checker.UserInputVerifiable("Пожалуйста, введите число на которое необходимо умножить вектор:", input =>
             {
-                if (!double.TryParse(input,out digit))
+                if (!double.TryParse(input, out digit))
                 {
                     Checker.ErrorWriteLine("Не удалось распознать число.");
                     return false;
