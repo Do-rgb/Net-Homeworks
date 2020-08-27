@@ -80,7 +80,7 @@ namespace VectorLib
         /// <returns>Вектор умноженный на число</returns>
         public static IMyVector operator *(MyVector vFirst, double digit)
         {
-            return new MyVector(vFirst.Z * digit, vFirst.Y * digit, vFirst.Z * digit);
+            return new MyVector(vFirst.X * digit, vFirst.Y * digit, vFirst.Z * digit);
         }
     }
 }

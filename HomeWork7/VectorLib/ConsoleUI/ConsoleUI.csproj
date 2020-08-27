@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PolynomLib\PolynomialLib.csproj" />
+    <ProjectReference Include="..\..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj" />
     <ProjectReference Include="..\VectorLib\VectorLib.csproj" />
   </ItemGroup>
 
