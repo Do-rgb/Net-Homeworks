@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUITask1", "CUITask1\CUITask1.csproj", "{A9F7FF10-3238-41E1-871C-C8D734289E10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUITask2", "CUITask2\CUITask2.csproj", "{B9AD9CA7-6AF1-4F20-9404-AF2C79936B97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A9F7FF10-3238-41E1-871C-C8D734289E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F7FF10-3238-41E1-871C-C8D734289E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F7FF10-3238-41E1-871C-C8D734289E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AD9CA7-6AF1-4F20-9404-AF2C79936B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AD9CA7-6AF1-4F20-9404-AF2C79936B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AD9CA7-6AF1-4F20-9404-AF2C79936B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AD9CA7-6AF1-4F20-9404-AF2C79936B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
