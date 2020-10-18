@@ -1,0 +1,20 @@
+<PORTAL_USER_INFO>
+  <AGENT_INFO>
+    <ISN>745589222</ISN>
+    <ShortName>Группа Компаний Пушистые Котики</ShortName>
+    <FullName>Общество С Ограниченной Ответственностью Группа Компаний Пушистые Котики</FullName>
+    <IsBank>true</IsBank>
+    <ClassISN>3482815607</ClassISN>
+  </AGENT_INFO>
+  <CONTACTS>
+    <SmsPhoneNumber>79185674523</SmsPhoneNumber>
+    <PhoneNeedActualize>true</PhoneNeedActualize>
+  </CONTACTS>
+  <POST_ERRORS>
+    <All>1496</All>
+    <Critical>683</Critical>
+  </POST_ERRORS>
+  <IsEmployee>false</IsEmployee>
+  <Company>CTS</Company>
+  <FilialISN>5122620403</FilialISN>
+</PORTAL_USER_INFO>
