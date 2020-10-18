@@ -347,3 +347,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/HW13_FileSystem/.idea
+/HW12_LINQ/.idea
