@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj" />
-    <ProjectReference Include="..\HomeWork8.MatrixLib\HomeWork8.MatrixLib.csproj" />
+    <ProjectReference Include="..\..\InputCheckerLibrary\InputCheckerLibrary\InputCheckerLibrary.csproj" />
+    <ProjectReference Include="..\HomeWork8.MatrixLib\HomeWork9.MatrixLib.csproj" />
   </ItemGroup>
 
 </Project>
